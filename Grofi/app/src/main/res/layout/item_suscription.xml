@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@dimen/margin_normal"
+    android:layout_marginHorizontal="@dimen/margin_normal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="@dimen/card_img_size"
+            android:layout_height="@dimen/card_img_size"
+            android:contentDescription="@string/logo_del_servicio"
+            android:background="@android:color/darker_gray"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:maxLines="1"
+            android:paddingVertical="@dimen/common_padding_middle"
+            android:paddingHorizontal="@dimen/common_padding_min"
+            tools:text="Nombre del servicio"
+
+            app:layout_constraintStart_toEndOf="@id/imgIcon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:id="@+id/tvPersonas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_min"
+            android:text="@string/numero_de_personas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgIcon"/>
+        <TextView
+            android:id="@+id/tvNpersonas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:maxLines="1"
+            android:paddingVertical="9dp"
+            tools:text="0"
+
+            app:layout_constraintStart_toEndOf="@id/tvPersonas"
+            app:layout_constraintTop_toBottomOf="@id/imgIcon"/>
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_min"
+            tools:text="Proxima fecha de pago"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvPersonas"/>
+
+        <TextView
+            android:id="@+id/tvCosto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_min"
+            android:text="@string/cantidad_a_pagar"
+            app:layout_constraintStart_toEndOf="@id/tvNpersonas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgIcon"/>
+        <TextView
+            android:id="@+id/tvCostoP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_min"
+            android:text="@string/cantidad_a_pagarP"
+            app:layout_constraintStart_toStartOf="@id/tvCosto"
+            app:layout_constraintTop_toBottomOf="@id/tvCosto"/>
+        <TextView
+            android:id="@+id/tvCostoPN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:maxLines="1"
+            android:paddingVertical="@dimen/common_padding_min"
+            tools:text="0"
+            app:layout_constraintStart_toEndOf="@id/tvCostoP"
+            app:layout_constraintTop_toBottomOf="@id/tvCosto"/>
+        <TextView
+            android:id="@+id/tvCostoT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_min"
+            android:text="@string/cantidad_a_pagarT"
+            app:layout_constraintStart_toEndOf="@id/tvCostoPN"
+            app:layout_constraintTop_toBottomOf="@id/tvCosto"/>
+        <TextView
+            android:id="@+id/tvCostoTN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:maxLines="1"
+            android:paddingVertical="@dimen/common_padding_min"
+            tools:text="0"
+            app:layout_constraintStart_toEndOf="@id/tvCostoT"
+            app:layout_constraintTop_toBottomOf="@id/tvCosto"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

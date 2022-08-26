@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Grofi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="dontaccount">Dont\'t have an account?</string>
+    <string name="sing_in">Sing In</string>
+    <string name="logoapp">LogoApp</string>
+    <string name="logo">Logo</string>
+    <string name="nombre">Nombre</string>
+    <string name="verify_password">Verify password</string>
+    <string name="create_account">Create Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="logo_del_servicio">Logo del servicio</string>
+    <string name="crear_nueva_suscripcion">Crear nueva suscripcion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_name">Nombre del servicio</string>
+    <string name="helper_required">Required</string>
+    <string name="hint_numPerson">Numero de personas en el plan</string>
+    <string name="hint_Date">Fecha del proximo pago</string>
+    <string name="create_suscription">crear suscripccion</string>
+    <string name="hint_Cost">Costo de la suscripcion</string>
+    <string name="card_invalid_email">Invalid Email</string>
+
+    <string name="hint_phone_url">URL de la imagen</string>
+    <string name="description_img_photo">Imagen de la tienda</string>
+    <string name="hint_Cost_Real">Costo personal de suscripcion</string>
+    <string name="numero_de_personas">Numero de personas:</string>
+    <string name="cantidad_a_pagar">Cantidad a pagar:</string>
+    <string name="cantidad_a_pagarP">Personal:</string>
+    <string name="cantidad_a_pagarT">Total:</string>
+    <string name="delete_suscription">Suscripcion eliminada</string>
+    <string name="suscription_add">Crear Suscripcion</string>
+    <string name="menu_save">Save</string>
+    <string name="edit_suscription_message_save_success">Suscripcion agregada correctamente</string>
+    <string name="dialog_delete_title">Eliminar Suscripcion?</string>
+    <string name="dialog_delete_comfir">Eliminar</string>
+    <string name="dialog_delete_cancel">Cancelar</string>
+    <string name="arg_id">Key_Id</string>
+    <string name="edit_suscription_message_valid">Revise los campos requeridos</string>
+    <string name="edit_suscription_message_update_success">Suscripcion Actualizada</string>
+    <string name="suscription_edit">Editar Suscripcion</string>
+</resources>
